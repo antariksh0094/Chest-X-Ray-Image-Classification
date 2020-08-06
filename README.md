@@ -1,18 +1,18 @@
 # Chest-X-Ray-Image-Classification
 In this time of COVID crisis, tools of medical diagnosis are critical for our well being. 
 Chest-X-Ray images are used to conduct preliminary diagnosis of lung abnormalities.
-I am trying to build a image classification model that can detect the presence of COVID-19 and other diseases by 
+I am trying to build an image classification model that can detect the presence of COVID-19 and other diseases by 
 "looking" at CXRs, with more than 90% accuracy.
 
 I have compiled the dataset from various Kaggle datasets as well as academic datasets. As medical data is protected information,
 its a little difficult to find good quality CXR images with proper labelling. The same images are repeated across many datasets. 
 I have seived through multiple datasets and created a set of total 11276 images, with:
 
-2530 CXR images Bacterial Pneumonia
-288 CXR images COVID-19
-1122 CXR images which are Normal (no disease)
-5597 CXR images of Other Findings
-394 CXR images of TB
+2530 CXR images Bacterial Pneumonia, 
+288 CXR images COVID-19, 
+1122 CXR images which are Normal (no disease), 
+5597 CXR images of Other Findings, 
+394 CXR images of TB, 
 1345 CXR images of Viral Pneumonia
 
 As labelled CXR image data was not easily available, I am trying to use all images for training. As you can see, there 
