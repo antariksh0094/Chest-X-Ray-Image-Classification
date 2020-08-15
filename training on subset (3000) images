@@ -1,0 +1,3 @@
+https://colab.research.google.com/drive/1iVwCrcK6Td28v2AZlYIOsjqrA6CFewBh#scrollTo=4t6ALrscAcNF
+
+Google colab notebook for training resnet34 model on subset(3000 images) of the original dataset.
